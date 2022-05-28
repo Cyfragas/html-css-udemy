@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    border: 2px solid black;   
+}
+.logo img
+{
+   height: 100px;
+   width: 100px;
+}
+#catalogo
+{
+    background: lightblue;
+}
+.produto
+{
+    background: lightgray;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid blue;
+}
+.rodape 
+{
+    background: lightcoral;
+    text-align: center;
+    border: 1px solid greenyellow;
+}
+#assinatura
+{
+    background: lightgreen;
+}
+
+
+
