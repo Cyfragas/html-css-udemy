@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.conteudo
+{
+    background: #B1BCE6;
+    border: 2px solid rgb(65, 65, 129);
+    color: rgb(65, 65, 129);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    float: right;
+    
+}
+#principal
+{
+    border: 5px solid #8CC0DE;
+    background-color: #B7E5DD;
+    color: rgb(65, 65, 129);
+}
+.conteudo-zero
+{
+    background: #FFD9C0;
+    border: 1px solid #F4BFBF;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    
+}
+.clear 
+{
+    clear: both;
+}
+
+
+
+

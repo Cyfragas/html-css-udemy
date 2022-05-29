@@ -1,0 +1,8 @@
+.conteudo1
+{
+    background: #FAF0D7;
+    border: 1px solid #F4BFBF;
+    width: 150px;
+    height: 150px;
+    float: right;
+} 
