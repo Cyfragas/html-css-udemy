@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body
+{
+    background:lightblue;
+}
+
+#container
+{
+    background: white;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+h1
+{
+    
+}
+p
+{
+    width: 300px ;
+    text-align: justify;
+}
+.absolute
+{   
+    border: 1px solid red;
+    position: absolute;
+    top: 80px;
+    background-color: antiquewhite;
+    right: 80px;
+
+
+}
+
+.relative
+{
+    border: 1px solid red;
+    position: relative;
+    top: -10px;
+    left: 80px;
+    
+}
+

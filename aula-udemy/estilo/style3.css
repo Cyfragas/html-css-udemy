@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body
+{
+    background:lightblue;
+}
+
+#container
+{
+    background: white;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+h1
+{
+    
+}
+p
+{
+    width: 300px ;
+    text-align: justify;
+}
+.relative
+{
+    border: 1px solid red;
+    position: relative;
+    top: -10px;
+    left: 80px;
+    
+}
