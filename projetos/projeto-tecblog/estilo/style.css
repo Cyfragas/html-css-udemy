@@ -45,9 +45,7 @@ body
 }
 a
 {
-
     text-decoration: none;
-
 }
 a:link, a:visited
 {
@@ -76,14 +74,117 @@ h1
 
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
+   
 }
 #conteudo
 {
     background: #F2EBE9;
     width: 660px;
+    border-radius: 15px;
+    float: left;
+
+}
+.postagem
+{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.postagem h2
+{
+    text-align: center;
+    padding: 10px;
+}
+.postagem span
+{
+   font-size: 0.8em;
+   color: #7C3E66;
+   padding: 6px;
+}
+.postagem p
+{
+    text-align: justify;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+.postagem a 
+{
+    border: 1px solid var(--cor02);
+    border-radius: 15px;
+    font-size: 0.8em;
+    position: relative;
+    float: right;
+    
 }
 #barra-lateral
 {
     background: #F2EBE9;
     width: 240px;
+    float: right;
+    border-radius: 15px;
+    
+}
+.recente
+{
+    padding: 15px;
+    
+}
+.recente h3
+{   
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #A5BECC;
+    color: #7C3E66;
+}
+.recente p
+{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+.recente a
+{
+    padding: 12px;
+}
+hr
+{
+   margin-top: 15px; 
+    
+}
+.categorias
+{
+    padding: 15px;
+}
+.categorias h3
+{
+    padding: 3px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #A5BECC;
+    color: #7C3E66;
+}
+.assuntos li
+{
+    list-style-type: none;
+
+}
+.assuntos a
+{
+    padding: 1.5px;
+}
+
+
+
+
+#rodape
+{   
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #A5BECC;
+    
 }
