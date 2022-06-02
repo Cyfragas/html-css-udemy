@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table
+{
+  width: 600px;
+  border-collapse: separate;
+
+}
+th, td
+{
+ padding: 7px;
+
+
+}
+th{
+  text-transform: uppercase;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #111;
+  text-align: left;
+  font-size: 90%;
+  letter-spacing: 0.1em;
+}
+tr.alternado
+{
+  background-color: #efefef3f;
+}
+tr:hover
+{
+  background-color: lightblue;
+}
+.numero
+{
+  text-align: right;
+}
+
+
