@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+
+/************** Barra de navegação com abas */
+
+body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul
+{   
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 720px;
+    float: left;
+}
+ul li
+{   
+    
+    float: left;
+    background:  url('../imagens/aba-direita.png') no-repeat top right;
+    
+}
+ul li a
+{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url('../imagens/aba-esquerda.png' ) no-repeat top left;
+    color: white;
+}
+ul a:hover
+{
+    color: #894a1f;
+
+}
+ul #atual
+{
+    background: url('../imagens/aba-direita-atual.png') no-repeat top right; 
+}
+ul #atual a
+{
+    background: url('../imagens/aba-esquerda-atual.png') no-repeat top left;
+}
