@@ -1,2 +1,18 @@
 @charset "UTF-8";
 
+.caixa
+{
+  width: 400px;
+  background: #dedede url(../imagens/topo2.png) no-repeat left top; 
+  
+}
+.caixa h2
+{
+  padding: 10px 20px 0 20px;
+}
+.caixa p
+{
+  background: url(../imagens/baixo2.png) no-repeat left bottom;
+  padding: 0px 20px 20px 20px;
+  text-align: justify;
+}
