@@ -14,8 +14,7 @@ body
 {
   width: 750px;
   margin: 0 auto;
-  padding: ;
-  border: 1px solid red;
+  
 }
 #topo
 {
@@ -29,4 +28,47 @@ body
   height: 66px;
   background: url("../imagens/logo.png");
   text-indent: -3000px;
+}
+ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#topo ul
+{
+  background: #CC0000;
+  margin-top: 30px;
+  float: left;
+}
+#topo ul li
+{
+  float: left;
+  
+}
+#topo ul a
+{
+  color: #fff;
+  padding: 0.5em 1.5em ;
+  display: block;
+  background: url("../imagens/divisor.png") no-repeat left center;
+  text-decoration: none;
+}
+#topo .primeiro a
+{
+  background: none;
+}
+#topo ul a:hover
+{
+  color: #69001d;
+}
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.mundo #navegacao a#mundo,
+body.fotos #navegacao a#fotos
+{
+  color: #fff;
+  background: #69001e73;
+  cursor: text;
 }
