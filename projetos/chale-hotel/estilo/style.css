@@ -17,8 +17,8 @@ body
 
 #container
 {
-  border: 1px solid red;
-  background: #ede9cc ;
+  
+  background: #ede9cc url("../imagens/bg-container.png") repeat-y center top;
   margin: 0 auto;
   min-width: 740px;
   max-width: 1180px;
@@ -35,7 +35,7 @@ body
 }
 #area-logo
 {
-  background: url(../imagens/topo-imagem-principal.png) no-repeat;
+  background: url("../imagens/topo-imagem-principal.png") no-repeat;
   width: 100%;
   height: 250px;
   position: absolute;
@@ -131,8 +131,39 @@ ul#navegacao a:hover
   height: 164px;
   float: right;
 }
+/*area de conteúdos*/
 
+#area-principal
+{
+  
+  float: left;
+  width: 50%;
+  background: url("../imagens/bg-area-principal.png") repeat-x top left; 
+  padding: 15px 0;
+}
  
+#area-lateral
+{
+  
+  float: right;
+  width: 50%;
+  background: url("../imagens/bg-area-lateral.png") repeat-x top left; 
+  padding: 20px 0;
+}
+.conteudo
+{
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+
+
+
+#rodape
+{
+  clear: both;
+}
 
 
 
