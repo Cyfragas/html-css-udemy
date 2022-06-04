@@ -135,6 +135,51 @@ h2
   padding: 5px;
   margin-top: 5px;
 }
+/*menu lateral*/
+
+#lateral ul a 
+{
+  font-size: 0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover
+{
+  color: #a1a1a1;
+  background: #f9f9f9 url("../imagens/marcador.png") no-repeat left center;
+  padding-left: 20px;
+}
+
+/* News*/
+
+label
+{
+  display: block;
+  cursor: pointer;
+}
+input
+{
+  font-size: 0.9em;
+  padding: 5px;
+  width: 125px;
+  border-radius: 5px ;
+  background-color: #fff;
+}
+input.submit
+{
+  width: 80px;
+  color: #fff;
+  background-color: #294c71;
+  border: 2px solid #294c71;
+} 
+
+
+
+
 
 /*rodape*/
 
