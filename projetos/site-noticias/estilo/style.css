@@ -104,15 +104,53 @@ body.fotos #navegacao a#fotos
 {
   width: 750px;
   margin: 0 0 20px 0;
-  background: lightblue;
+  
 }
 #secundario
 {
   width: 270px;
   float: left;
   margin: 0 0 20px 15px;
-  background: lightcyan;
 }
+
+/*conteúdo principal*/
+
+
+/*formatando imagens*/
+
+img.imagem-principal
+{
+  border: 3px solid #dfdfdf;
+  width: 98%;
+}
+.destaque h3
+{
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+  color: #fff;
+  background: #CC0000;
+}
+.destaque p
+{
+  text-align: justify;
+  padding: 5px;
+}
+.destaque a
+{
+  color: #CC0000;
+  padding: 5px;
+}
+.destaque a:hover
+{
+  color: #69001d;
+}
+
+
+
+
+
 
 /*rodape*/
 
