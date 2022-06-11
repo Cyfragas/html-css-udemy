@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@-webkit-keyframes animacao-caixa
+{
+  from 
+  {
+    background: #009670; /*estado inicial*/
+  }
+  to /*estado final*/
+  {
+    background: rgb(217, 235, 118);
+  }
+}
+@-moz-keyframes animacao-caixa
+{
+  from 
+  {
+    background: #009670; /*estado inicial*/
+  }
+  to /*estado final*/
+  {
+    background: rgb(217, 235, 118);
+  }
+}
+@keyframes animacao-caixa
+{
+  from 
+  {
+    background: #00FFC6; /*estado inicial*/
+    border-radius: 0px;
+    top: 0;
+    left: 0;
+  }
+  to /*estado final*/
+  {
+    background: #FF9A8C;
+    border-radius: 300px;
+    top: 200px;
+    left: 200px;
+  }
+}
+
+#caixa
+{
+width: 300px;
+height: 300px;
+margin: 20px;
+background: #00FFC6;
+position: relative;
+/*animation-name: animacao-caixa;
+animation-duration: 2s;
+animation-delay: 1.5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;*/
+
+animation: animacao-caixa 2s 1.5s infinite alternate;
+
+}
+
+
