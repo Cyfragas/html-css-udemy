@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+#caixa
+{
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: url("../imagens/camera.png");
+}
+#caixa h1
+{
+  background: rgba(201, 155, 4, 0.5);
+  color: #fff;
+  
+}
+#caixa2
+{
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  box-sizing: border-box;
+  /*background: linear-gradient(to left, red, rgb(255, 202, 211));*/
+  background: radial-gradient(blue, violet, pink);
+}
+
