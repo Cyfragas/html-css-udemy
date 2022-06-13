@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+
+body
+{
+    background: #f4f2ec url("../imagens/fundo.png") repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+/*conatiner*/
+
+#container
+{
+    width: 1080px;
+    margin: 0 auto;
+}
+a:link, a:active, a:visited
+{
+    color: #A86E13;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #9FC088;
+}
+
+
+/*Logo*/
+
+#logo h1
+{
+    float: left;
+}
+
+#logo a
+{
+    width: 248px;
+    height: 21px;
+    text-indent:-9999px;
+    display: block;
+    background: url("../imagens/logo.png") no-repeat;
+}
+
+
+/*Barra de navegação superior*/
+
+header
+{
+    padding: 15px 0;
+    height: 55px;
+}
+nav ul
+{
+    list-style: none;
+    margin: 20px;
+    float: right;
+
+}
+nav ul li
+{
+    float: left;
+}
+nav ul li a:link
+{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+nav ul li a:hover
+{
+    border-bottom: 1px solid #9FC088;
+}
+
+/*Conteúdo principal*/
+
+#conteudo
+{
+    width: 710px;
+    float: left;
+    background: #FFF;
+}
+
+
+/*Conteúdo lateral*/
+aside
+{
+    width: 350px;
+    float: right;
+    background: #FAEBE0;
+}
+section#visita
+{
+    background: #CBBCB1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+section#galeria h1
+{
+    text-align: center;
+    color: #A86E13;
+}
+
+section#galeria a 
+{
+    display: block;
+    background: url("../imagens/fundo-foto.png") no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 35px;
+}
+section#galeria img
+{
+    margin: 2px;
+}
+h4
+{
+    color: #A86E13;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
+/*Formulários*/
+
+input
+{
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+}
+input.campo
+{
+    border: 1px solid #ccc;
+}
+input.botao
+{
+    background: #FAEBE0;
+    color: #A86E13;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+fieldset
+{
+    border: none;
+}
+legend
+{
+    display: none;
+}
+
+
