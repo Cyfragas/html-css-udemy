@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Bootstrap - input group</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  </head>
+
+  <body style="margin-bottom: 200px;padding: 16px;">
+
+    <form>
+       
+        <h2>Grupo prepend</h2> <!--conteúdo antes da caixa de texto -->
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+            <span class="input-group-text" >@</span>
+            </div>
+           <input class="form-control" type="text" placeholder="e-mail">
+       </div> 
+       <br>
+
+       <h2>Grupo append</h2> <!--conteúdo após a caixa de texto -->
+
+       <div class="input-group">
+            <input class="form-control" type="text" placeholder="e-mail">
+            <div class="input-group-append">
+            <span class="input-group-text">@universos.com</span>
+            </div>
+       </div> 
+       <br>
+
+       <h2>URL customizada</h2>
+        <div class="input-group">
+            <div class="input-group-prepend " >
+            <span class="input-group-text bg-warning">https://site.com/usuario/</span>
+            </div>
+            <input class="form-control" type="text" placeholder="Digite seu usuário">
+        </div>
+        <br>
+
+        <h2>Moeda</h2>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+            <span class="input-group-text bg-info">$</span>
+            </div>
+            <input class="form-control" type="text" placeholder="Digite um valor">
+
+            <div class="input-group-append">
+            <span class="input-group-text bg-info">,00</span>
+            </div>
+        </div>
+        <br>
+
+        <!--
+        type: checkbox / radio
+        -->
+        <h2>Checkbox / radio</h2>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+            <div class="input-group-text bg-success">
+            <input type="checkbox">
+            </div> 
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        <br>
+        <div class="input-group">
+            <div class="input-group-prepend">
+            <div class="input-group-text bg-danger">
+            <input type="radio">
+            </div> 
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        <br>
+
+        <h2 class="text-success">Múltiplos inputs</h2>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+            <span class="input-group-text bg-secondary">nome/e-mail</span>
+            </div>
+            <input class="form-control mr-2" type="text" placeholder="e-mail">
+            <input class="form-control" type="password" placeholder="senha">
+       </div>
+       <br>
+
+       <h2>Pesquisas</h2>
+       <div class="input-group">
+           <input class="form-control" type="text" placeholder="Pesquisar" >
+           <div class="input-group-append">
+           <button class="btn btn-warning" ltype="button">Pesquisar</button>
+           </div>
+       </div>
+
+    </form>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
