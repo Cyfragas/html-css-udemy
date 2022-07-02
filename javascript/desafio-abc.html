@@ -21,9 +21,20 @@
     document.write("A:" + b + "<br/>")
     document.write('B:' + a + '<br/>')
     document.write('C:' + c + '<br/>')
-    //
+    // minha solução: errada. realizei a troca de valores diretamente no código sem utilizar lógica :(
+    document.write('<hr>')
+    // solução correta: alteramos o valor das variáveis utilizando c = null 
 
+    c = a
+    a = b
+    b = c
+    c = null
 
+    document.write("A:" + a + "<br/>")
+    document.write('B:' + b + '<br/>')
+    document.write('C:' + c + '<br/>')
+
+    document.write('<hr>')
 
 
   </script>

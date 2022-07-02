@@ -1,3 +1,8 @@
+Javascript
+
+* O JavaScript é uma linguagem interpretada, isso porque os scripts JS são interpretados pelo browser em tempo de execução.
+
+
 Inclusão do Javascript em arquivos.
 
 * Podemos utilizar o Javascript dentro do arquivo HTMl usando a tag <script> </script> dentro do head ou ao final do body (forma mais utlizado).
@@ -12,13 +17,15 @@ PRECEDÊNCIA DE EXECUÇÃO
 
 COMENTÁRIOS DENTRO DOS CÓDIGOS
 
+Inclusão de textos descritivos que são ignorados pelo interpretador do JS e ajudam na identificação da lógica da programação facilicando futuras manutenções
+
 * Utilizando // para comentários curtos de uma linha e /* --- */ para um bloco de comentário maior.
 
 VARIÁVEIS 
 
 * espaços em memória para armazenar informações.
 
-- utlizamos o comando var para guardar as informações
+- utlizamos a instrução var para guardar as informações
 ex var nome = "Cynthia"
 - não podemos começar o nome de uma variável com números ou caracteres especiais.
 - O console faz distinção entre nomes iguais escritos de formas diferentes:
