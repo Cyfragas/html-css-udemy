@@ -54,6 +54,9 @@ escrevemos uma expressão e a partir do resultado da expressão (false or true) 
 
 - Prompt deixa a operação mais dinâmica, a partir da informação do usuário o resultado é traduzido. (Abre umam caixa de texto)
 
+CASTING DE TIPOS COM tostring(), parseInt()  e parseFloat()
+
+- Convereter um tipo de dado para outro tipo de dado.
 
 
 
