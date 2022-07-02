@@ -1,0 +1,49 @@
+Inclusão do Javascript em arquivos.
+
+* Podemos utilizar o Javascript dentro do arquivo HTMl usando a tag <script> </script> dentro do head ou ao final do body (forma mais utlizado).
+
+* Utilizando um arquivo externo com a terminação .js anexada ao arquivo utilizando a <script src= 'arquivo-javascript.js> </script> no final do body.
+
+- o resultado é o mesmo, a diferença é que utilizando o arquivo externo fica mais fácil a organização e leitura dos códigos.
+
+PRECEDÊNCIA DE EXECUÇÃO
+
+* trata-se do local onde o javascript será inserido, se utilizado dentro de head e não houver elementos HTML dentro do body o código será indefinido.
+
+COMENTÁRIOS DENTRO DOS CÓDIGOS
+
+* Utilizando // para comentários curtos de uma linha e /* --- */ para um bloco de comentário maior.
+
+VARIÁVEIS 
+
+* espaços em memória para armazenar informações.
+
+- utlizamos o comando var para guardar as informações
+ex var nome = "Cynthia"
+- não podemos começar o nome de uma variável com números ou caracteres especiais.
+- O console faz distinção entre nomes iguais escritos de formas diferentes:
+ex nomecompleto, nomeCompleto, NOMECOMPLETO. (entende-se que cada um é uma variável diferente)
+- nomes com mais uma palavra utilizamos a letra maiúscula a partir da segunda palavra.
+ex var nomeCompleto = "Cynthia Fraga"
+- existem três tipos de valores que podemos atribuir a uma variável - string, number e boolean.
+
+  string -> caracteres dentro de aspas simples ou duplas.
+  number -> Números inteiros, negativos ou fracionados. (numeros fracionados são separados por . e não utilizamos , ex 22.78)
+  boolean -> true or false
+
+- conseguimos alterar um valor de uma variável
+- console.log utilizado para analisar o código afim de localizar erros.
+- Podemos utlizar também o document.write(nome da variável) utilizando elementos HTML e examinando o código interpretado pelo browser
+
+CONCATENAÇÃO 
+
+- conseguimos concatenar variáveis a textos estáticos utlizando o operado + a modo de promover textos dinâmicos.
+ex var texto = 'curso de javascript'
+document.write("<h1> Olá Cynthia" + texto + "seja bem vinda </h1>")
+
+
+
+
+
+
+
