@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operadores Lógicos</title>
+
+  <script>
+
+    //operadores lógicos em conjunto com operadores condicionais.
+
+    // true && true && false = false
+    // true && true && true = true
+
+    /*if(2==2 && 9 >= 7 && 'a' == 'b') {
+      document.write('Verdadeiro')
+    } else {
+      document.write('Falso')
+    } */
+
+    // true || true || false = true
+    // O operador OU somente vai retornar false se todas as condições das expressões conectadas forem falsas.
+
+    /*if(4 == 2 || 3 >= 5 || 'a' == 'b') {
+      document.write('Verdadeiro')
+
+    } else {
+      document.write('Falso')
+    }*/
+
+    //
+
+    //true = false - false = true
+
+    /*if(!(4 >= 2) ){
+      document.write('Verdadeiro')
+
+    } else {
+      document.write('Falso')
+    }*/
+
+    var nota = prompt('Digite a nota do aluno:')
+    var faltas = prompt('Digite a quantidade de faltas:')
+
+    var media = 7
+    var faltasMaximas = 15
+
+    //as duas condições precisam ser atendidas.
+
+    /*if(nota >= media && faltas <=faltasMaximas ) {
+      document.write('Aprovado')
+    } else {
+      document.write('Reprovado')
+    }*/
+
+    //operador tenario
+
+    var resultado = (nota >= media && faltas <=faltasMaximas) ? 'Aprovado' : 'Reprovado'
+
+    document.write(resultado)
+
+    
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+
+</head>
+<body>
+  
+</body>
+</html>

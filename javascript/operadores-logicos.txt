@@ -1,0 +1,20 @@
+O que são operadores lógicos?
+
+- Operadores que nos permite conectar expressões de comparação
+
+OPERADORES
+
+-> E (&&) - Verdadeiro se todas as expressões forem verdadeiras.
+
+-> OU (||) - Verdadeiro se pelo menos uma das expressões for verdadeira.
+
+-> NEGAÇÃO (!) - Inverte o resultado da comparação.
+
+
+- mais dinâmicas aos nossos testes condicionais.
+- várias camadas de possibilidades em único teste.
+
+OPERADOR TENARIO
+
+- Uma estrutura de decisão semelhante ao if/else a diferença é que o operador tenario possui uma sintese mais enxuta porém mais limitado.
+
