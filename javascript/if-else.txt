@@ -52,6 +52,7 @@ Else é uma condição que pode ser omitida.
     
 escrevemos uma expressão e a partir do resultado da expressão (false or true) o fluxo será decidido.
 
+- Prompt deixa a operação mais dinâmica, a partir da informação do usuário o resultado é traduzido. (Abre umam caixa de texto)
 
 
 
