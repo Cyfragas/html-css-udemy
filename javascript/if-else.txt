@@ -1,0 +1,69 @@
+if/else se/senão
+
+* o comando if/else consiste em uma estrutura de controle de fluxos que atendam várias possibilidades possíveis de serem previstas na lógica.
+
+ex (estrutura)
+
+if(condição){
+  //trecho do código que será executado
+} else {
+  //trecho do código que será executado
+}
+
+- se a condição for verdadeira será interpretado um determinado código.
+- se não (caso a condição sera falsa) a condição será ignorada ou podemos interpretar outro trecho de código.
+
+- Pode ser encadeado, caso a primeira condição seja falsa podemos testar uma segunda condicação, até achar o fluxo desejado que atenda a condição ou desviar o fluxo para a condição else.
+
+CONDICIONAIS
+* Operadores de comparação adcionais
+
+- também conhecido como operadores relacionados.
+
+- servem para formar as expressões condicionais para o comando if
+
+OPERADORES 
+
+- Igual (==) verifica se os valores comprados são iguais.
+- Idêntico (===) verifica se os valores comparados são iguais e do mesmo tipo.
+- Diferente (!=) verifica se os valores comparados são diferentes.
+- Não idêntico (!==) verifica se os valores comparados são diferentes e de tipos diferentes.
+- Menor (<) verifica se o valor da esquerda é menor que o valor da direita.
+- Maior (>) verifica se o valor da esquerda é maior que o valor da direita.
+- Menor igual (<=) verifica se o valor da esquerda é menor ou igual que o valor da direita.
+- Maior igual (>=) verifica se o valor da esquerda é maior ou igual o valor da direita.
+
+capazes de formar expressões que usaremos dentro dos nossos comandos if 
+
+retornam verdadeiro ou falso
+
+responder todas as perguntas que precisamos para tomadas de decisão dentro de nossas aplicações.
+
+Else é uma condição que pode ser omitida.
+
+** se a condição de if for falsa o fluxo é desviado para else
+
+    if(false){
+      document.write('Entrou dentro do bloco if (verdadeiro)')
+
+    } else {
+      document.write('entrou dentro do bloco else (falso)')
+    }
+    
+escrevemos uma expressão e a partir do resultado da expressão (false or true) o fluxo será decidido.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
