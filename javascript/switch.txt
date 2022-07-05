@@ -1,0 +1,34 @@
+Switch 
+
+O que é Switch?
+
+- condicional , visa com base em uma condição seguir o  fluxo da aplicação. 
+- igual ao if mas escrito de maneira diferente sendo a sintese de switch mais intuitiva.
+- Ele é restrito pois só conseguimos fazer comparação de identicos. 
+- Organiza de uma forma que organiza melhor o código.
+- a opção case pode ser uma variável ou um valor predefinido.
+- usar break no final de cada case
+- break indica para o switch que aquele case chegou ao fim.
+- se não for uitlizada será executado todo o conteúdo da case1  e case2 e aconteceria até que uma instrução break fosse localizada dentro da relação de cases da aplicação.
+- o default funciona como o else do comando if se nenhuma case for localizado  em relação a função anterior o default será executado. 
+- assim como else é uma instrução opcional e podemos omiti-lo na aplicação.
+- podemos incluir quantos cases necessários da switch 
+
+
+
+var opção = 2 
+
+switch (opcao) {
+    case 1: 
+    // trecho de código que será executado
+    break
+
+    case 2: 
+    // trecho de código que será executado
+    break
+
+    default: 
+    // trecho do código que será exibido
+    break
+
+}
