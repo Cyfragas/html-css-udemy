@@ -1,0 +1,24 @@
+OPERADORES ARITIMÉTICOS 
+
+O que são operadores aritméticos?
+
+- Operadores que nos permite realizar cálculos básicos no Javascript
+
+
+ -- ATENÇÃO: sinal + de adição também serve para concatenação. (concatenação soma de strings).
+
+ - Incremento: Quando temos um valor e vamos acrescentar apenas uma unidade deste valor. (++)
+
+ - Decremento Quando temos um valor e vamos subtrair apeenas uma unidade deste valor. (--)
+
+ - Não é possivel utilizar em uma mesma aplicação concatenação e adição.
+
+ - é necessário uma precedência de execução, utilizar um recurso da matemática tradicional, os parênteses. o interpretador primeiro localiza a instrução dentro dos parênteses para ser resolvida.
+
+ - multiplicação/divisão primeiro e depois soma/subtração defenido assim como na matématica tradicional a importância dos operadores, se houver todas envolvidas em uma mesma expressão.
+
+ - Incremento e decremento pode ser usado antes e depois da variável. pré/pós
+
+
+ 
+
