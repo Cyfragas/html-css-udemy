@@ -1,0 +1,56 @@
+FUNÇÕES
+
+- Encapsular um bloco de códigos com um objetivo definido 
+
+- com a chamadas das  funções podemos recuperar os dados em outra aplicações.
+
+- geralmenre a primeira palavra da função é um verbo de ação e a segunda um substantivo, fazendo uma referência clara a esta função. 
+
+ex abrirJogos - inserirComentarios
+
+
+
+* estrutura function
+
+function calcularAreaTerreno(largura, comprimento) {
+    var area = largura * comprimento 
+
+    return area
+}
+
+
+PARÂMETROS/ARGUMENTOS (largura, comprimento)
+
+- Funcionam como entrada de dados em uma função 
+- Podemos não utlizar ou usar quantos parametros necessários na função separados por vírgula
+- os parâmetros são variáveis e a definição do nome que utilizamos deve seguir as regras que já vimos.
+- dentro dos escopo das funções podemos criar variáveis, estruturas condicionais, podemos trabalhar com todos os recursos da linguagem de programação para a criação da lógica da nossa aplicação, inclusive outras funções.
+
+- as funções podem ser do tipo VOID OU return
+
+- funções Void realizam o processamento mas não oferece nenhum retorno para quem fez a chamada  
+
+- Return, retorna um parâmetro que foi declarado dentro da lógica das funções.
+
+ESCOPO VARIÁVEIS 
+
+- O javascript possui três escopos: global, função e o bloco ({})
+
+-> global é a variável do javascript como um todo
+-> função é a variável dentro de uma função
+-> bloco é a variável inserida dentro de comandos como if/else, swith
+
+- var inserida em escopo de função e bloco visualizam variáveis de escopo global
+
+FUNÇÕES ANÔNIMAS E A TECNICA DE WRAPPER 
+
+- a estrutura é idêntica a uma função comum 
+- a diferença é a ausência do nome da função
+
+FUNÇÕES DE CALLBACK 
+
+- funções encaminhas como parâmetros para outras funções, o objetivo é após o termino da função chamar a função encaminhada por parâmetros, dando continuidade na lógica da aplicação.
+- a função tem um ID e parametro para exibir uma mensagem indicando que a aplicação com artigo correto e outra quando a o artigo der algum tipo erro. (3 funções)
+- s~~ao funções do tipo Void e não dá retorno
+
+

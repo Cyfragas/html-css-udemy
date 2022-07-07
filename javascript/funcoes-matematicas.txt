@@ -1,0 +1,18 @@
+
+* Funções matemáticas
+
+- utilizadas em cálculos mais complexas 
+
+* Math.ceil
+- arendodar um número para cima
+
+* Math.floor
+- - arendodar um número para baixo
+
+* Math.round
+- aredondamento com base em uma média (para mais ou menos dependendo da média)
+
+* Math.random
+- ele fornece um número aleatório entre 0 e 1
+
+

@@ -1,0 +1,33 @@
+FUNÇÕES NATIVAS PARA MANIPULAR STRINGS
+
+
+*PROPIEDADE/ATRIBUTO LENGTH
+
+- Retorna a quantidade de caracteres de uma string
+- Espaço entre as palavras também conta como caracteres 
+- Inicia-se na posição 0
+
+* PROPIEDADE/ATRIBUTO charArt
+
+- retorna a posição do caracteres dentro da cadeia de caracteres
+
+* indexOf()
+
+- retorna a posição da primeira  ocorência de um valor especifico dentro da STRINGS, a posição numeral do caractere
+- sempre que houver a inexistÊncia de um carcetere iremos ter -1 como retorno 
+
+* Replace 
+
+- permite com base em um valor de pesquisa ou valor de modificação substituir textos dentro de uma string
+
+* substr()
+
+- Extrair parte de uma string com em uma posição inicial,  seguida de um valor de caracteres a frente daquela posição inicial. Como se recortasse uma parte da string
+
+* toLowerCase e toUpperCase
+
+- converte todos os caracteres para minúsculas e maiúsculas
+
+* trim()
+
+- remove os espaços em branco nas extremidades de uma string
