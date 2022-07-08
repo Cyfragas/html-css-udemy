@@ -1,0 +1,48 @@
+EVENTOS
+
+Nos possibilita capturar ações feitas pelo usuário  dentro do browser.
+Ex... movimento do mouse, o clique em uma tecla do teclado, redimensionamento da tela, o processo de carremento da página
+
+podem ser combinados por funções disparando a realizaçao de lógicas a partir da interação do usuário com os elementos da página.
+
+EVENTOS mouse
+
+- onclick 
+
+Acionado quando o elemento é clicado 
+
+- ondbclick 
+
+Acionado quando o elemento é clicado duas vezes
+
+- onmouseup
+
+Acionado quando um clique sobre o elemento é liberado. quando soltamos o clique 
+
+- onmouseover
+
+Acionado quando o cursor do mouse sobrepoe um elemento, só de passar o mouse o evento aparece
+
+- onmouseout
+
+Acionado quando o cursos sai da página ocupado pelo elemento sem precisar clicar
+
+**Os eventos podem ser combinados
+
+** Nem todos os eventos estão disponíveis para todos os elementos HTML, sempre consultar a documentação na W3C - HTML DOM events 
+
+EVENTOS TECLADOS
+
+- Eventos disparados a partir da interação do usuário através do teclado.
+
+- onkeydown
+
+Acionado no momento que uma tecla é clicada
+
+- onkeypress
+
+Acontece entre os dois eventos: onkeypress e onkeyup, o instante que a tecla se mantém pressionada. Se é acionado em teclas com saídas de caracteres (Ctrl não acontece nada) as demais acionam com qualquer tecla
+
+- onkeyup
+
+Acionado no momento que a tecla é liberado
