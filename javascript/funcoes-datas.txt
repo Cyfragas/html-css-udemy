@@ -1,3 +1,5 @@
 Funções para manipular datas
 
-- um 
+- trabalha datas em vários aspectos, inclusive localizar períodos entre datas para efetuar alguma exibição
+- geralmente trabalhada em banco de dados 
+- conseguimos recuperar: anos, meses, dias, horas, minutos, segundos e milésimo de segundos
