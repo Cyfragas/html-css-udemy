@@ -37,12 +37,50 @@ EVENTOS TECLADOS
 
 - onkeydown
 
-Acionado no momento que uma tecla é clicada
+Acionado no momento que uma tecla é clicada.
+Somente após ao evento disparado a letra irá aparecer no elemento.
 
 - onkeypress
 
-Acontece entre os dois eventos: onkeypress e onkeyup, o instante que a tecla se mantém pressionada. Se é acionado em teclas com saídas de caracteres (Ctrl não acontece nada) as demais acionam com qualquer tecla
+Acontece entre os dois eventos: onkeypress e onkeyup, o instante que a tecla se mantém pressionada. Se é acionado em teclas com saídas de caracteres (Ctrl não acontece nada) as demais acionam com qualquer tecla.
+
+Muito parecido com o comportamento do onkeydown a diferença é que se apartar uma tecla que não seja um caractere, inclusive o espaço que representa um caractere vazio.
 
 - onkeyup
 
-Acionado no momento que a tecla é liberado
+Acionado no momento que a tecla é liberado.
+
+A letra aparece para o usuário antes do evento ser disparado.
+
+EVENTOS JANELA
+
+- onresize 
+
+Acionado quando o frame ou a página ela é redimensiodada, ao dimuniur ou aumentar o tamanho do browser o evento será acionado através de alguma ação
+
+Aplicado ao elemento body que encapsula todo o conteúdo que aparece para o usuário no browser
+
+
+- onscroll
+
+Acionado quando o scroll do mouse é acionado.
+
+Também pode ser aplicado em body, consultar na W3C outros elementos aceitos
+
+EVENTOS FORMULÁRIOS
+
+- ONFOCUS 
+
+O evento é acionando quando o elemento recebe o focus do cursor mouse, quando clicamos no elemento
+
+
+
+- ONBLUR 
+
+Acionado quando o elemento perde o foco, quando apertamos o Tab ou quando clicamos em outro elemento
+
+- ANCHANGE
+
+Acionado quando o estado do elemento é modificado de elementos comuns para elementos select
+
+
