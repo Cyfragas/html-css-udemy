@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulando valores de Inputs (text) </title>
+
+  <script>
+    function distribuiCaractere() {
+
+      //selecionar o valor digitado
+      var caractere = document.getElementById('entrada').value.trim()
+
+      //limpar o campo de digitação
+      document.getElementById('entrada').value = ''
+
+      //limpar espaços em branco nas extremidades da string
+      
+
+      switch(caractere) {
+        case'0':
+        case'1':
+        case'2':
+        case'3':
+        case'4':
+        case'5':
+        case'6':
+        case'7':
+        case'8':
+        case'9':
+
+        //adicionar o caracter no campo referente a números
+        document.getElementById('apenas_numeros').value += caractere
+        break;
+        default:
+        //adcionar o caracter no campo referente a letras
+        document.getElementById('apenas_letras').value += caractere
+
+      }
+    }
+
+
+  </script>
+
+</head>
+<body>
+
+  <input id="entrada" style="height: 20px; width:350px; " type="text" placeholder="Digite aqui..." onkeyup="distribuiCaractere()" >
+
+  <br><br><br>
+
+  <span>LETRAS:</span>
+  <input type="text" disabled="disabled" id="apenas_letras" >
+  <span>NÚMEROS:</span>
+  <input type="text" disabled="disabled" id="apenas_numeros">
+  
+</body>
+</html>
+
+
+
+
+
+
