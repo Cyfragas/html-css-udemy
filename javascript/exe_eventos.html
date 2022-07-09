@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercícios de fixação - Eventos </title>
+
+
+  <script>
+
+    function focar(){
+
+      document.getElementById('campo').style.background = 'yellow'
+    }
+
+    function desfocar(){
+
+      var campo = document.getElementById('campo').value
+
+      if(campo.length < 3){
+        document.getElementById('campo').style.background = 'red'
+      }else{
+        document.getElementById('campo').style.background = 'green'
+      }
+    }
+  </script>
+</head>
+<body>
+
+<input id="campo" onfocus="focar()" onblur="desfocar()" type="text">
+  
+</body>
+</html>
