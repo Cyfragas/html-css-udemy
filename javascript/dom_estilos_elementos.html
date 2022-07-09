@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipulando estilos de elementos </title>
+
+  <style>
+    #vermelho {
+      background: #f08080;
+      color: #660202;
+      border: 2px solid rgb(102, 2, 2);
+    }
+    #verde {
+      background: #90ee90;
+      color: #008000;
+      border: 2px solid green;
+
+    }
+    #azul {
+      background: #87cefa;
+      color:blue;
+      border: 2px solid blue
+    }
+
+    button{
+      padding: 10px;
+      text-transform: uppercase;
+    }
+
+    div {
+      border: 1px solid #ccc;
+      height: 200px;
+      width: 200px;
+      margin: auto;
+
+    }
+  
+  </style>
+
+  <script>
+
+    function modificaEstilo(corDeFundo, a, l) {
+
+      document.getElementById('square').style.background = corDeFundo
+
+      document.getElementById('square').style.width = l
+
+      document.getElementById('square').style.width = a
+      
+      document.getElementById('square').style.height = a,l
+    }
+
+
+
+      
+    
+
+  </script>
+
+
+
+</head>
+<body>
+
+<h2>Manipulando estilo dos Elementos</h2>
+
+<button onclick="modificaEstilo('#f08080' ) " id="vermelho">Vermelho</button>
+<button onclick="modificaEstilo('#90ee90')" id="verde">Verde</button>
+<button onclick="modificaEstilo('#87cefa', '450', '20px')" id="azul">Azul</button>
+
+<br><br><br>
+
+<div id="square">
+</div>
+
+
+
+
+
+  
+</body>
+</html>
