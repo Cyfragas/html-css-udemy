@@ -1,0 +1,33 @@
+Estudo do HTML DOM
+
+O  que é o DOM
+
+Document Object Model
+
+- API que permite o acesso via JavaScript aos elementos da página.
+
+- Todos os elementos HTMl ficam organizados em um document, uma representação análoga a uma árvore onde os elementos pais encapsulam os elementos filhos traçando trajetos bem específicos para alcançar cada um dos elementos que estrturam a página.
+
+- Árvores de elementos do DOM
+
+- Cada elemento contido no DOM é também chamado de nó ou node em inglês.
+
+SELECIONANDO ELEMENTOS DA página
+
+DOCUMENT (API DOM)
+
+- getElementById 
+A partir do Identificador unico do elemento, na mesma página não se repete ID
+
+
+- getElemensByTagName
+
+traz pra gente um HTML collection, isso ocorre pq podemos ter mais de uma tag do mesmo elemento.
+
+- getElementsByClassName
+ 
+ a partir do nome da classe dentro do elemento
+
+- getElementsByName
+
+o retorno é um nodelList 
