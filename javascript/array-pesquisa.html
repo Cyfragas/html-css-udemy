@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Método de pesquisa no array</title>
+</head>
+<body>
+
+  <script>
+
+    var listaFrutas = Array()
+
+    listaFrutas[0] = 'Banana'
+    listaFrutas[1] = 'Manga'
+    listaFrutas[2] = 'Morango'
+    listaFrutas[3] = 'Uva'
+
+    if(listaFrutas.indexOf('Manga') === -1){
+      document.write('Elemento não existe')
+    }else {
+      document.write(`Elemento existe e está na posição ${listaFrutas.indexOf('Manga')}`)
+    }
+      
+    
+
+    //console.log(listaFrutas)
+
+  </script>
+  
+</body>
+</html>
