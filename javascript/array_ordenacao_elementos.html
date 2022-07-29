@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordenação de elementos na Array</title>
+  <style>
+    body{
+      background: purple;
+      color: white;
+      font: bold 14pt monospace;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <script>
+
+/*var listaAmigos = Array()
+
+listaAmigos[0] = 'Hedilberto'
+listaAmigos[1] = 'Cristina'
+listaAmigos[2] = 'Adilson'
+listaAmigos[3] = 'Cássia'
+listaAmigos[4] = 'Marcos'
+
+listaAmigos.push('Cynthia')
+listaAmigos.push('Diego')
+listaAmigos.unshift('Ilson')
+
+
+
+document.write(listaAmigos.sort())
+console.log(listaAmigos)*/
+
+var listaNumeros = Array()
+
+listaNumeros[0] = 13
+listaNumeros[1] = 7
+listaNumeros[2] = 38
+listaNumeros[3] = 40
+listaNumeros[4] = 11
+
+document.write(listaNumeros.sort(ordenar))
+
+function ordenar(a,b){
+  return a - b
+}
+
+
+
+  </script>
+  
+</body>
+</html>
