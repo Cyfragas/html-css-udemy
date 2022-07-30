@@ -5,8 +5,73 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercícios de fixação Arrays</title>
+  <style>
+    body{
+      background: purple;
+      color: white;
+      
+    }
+    input{
+      margin-bottom: 10px;
+      width: 140px;
+      border-radius: 3px;
+      border: 0 solid white;
+      font: normal 12pt monospace;
+      color: purple;
+      padding: 5px;
+    }
+    button{
+      background: yellow;
+      color: purple;
+      border: 0 solid yellow;
+      border-radius: 3px;
+      font: bold 10pt monospace;
+      text-transform: uppercase;
+      padding: 5px;
+    }
+
+
+  </style>
 </head>
 <body>
+
+  <input type="text" name="dados" id="objeto" placeholder="Digite aqui...">
+  <button  onclick="adicionar()">Adicionar</button>
+  <button onclick="ordenar()" >Ordenar</button>
+
+  <script>
+
+    var objetos = ['Cadeira', 'Impressora','Garfo']
+
+    function adicionar(){
+
+      var objeto = document.getElementById('objeto').value
+
+      if(objeto !=''){
+
+        if(objetos.indexOf(objeto) !== -1){
+          alert('Objeto já adicionado')
+        }else{
+
+          objetos.push(objeto)
+          console.log(objetos)
+
+          document.getElementById('objeto').value = ''
+
+        } 
+      } else {
+        alert('Informe um objeto válido')
+      }
+    }
+    function ordenar(){
+      objetos.sort()
+      console.log(objetos)
+    }
+
+
+
+   
+  </script>
   
 </body>
 </html>
