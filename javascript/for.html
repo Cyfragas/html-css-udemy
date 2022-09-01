@@ -16,13 +16,19 @@
 </head>
 <body>
 
-  For <br> <br>
+ 
 
 
   <script>
 
-    for(var n = 10; n >= 0; n -= 2){
-      document.write(n + '<br />')
+    var listaConvidados = ['Hedilberto', 'Marcos', 'Cristina', 'Adilson']
+
+    console.log(listaConvidados)
+
+    for(var x in listaConvidados){
+
+      console.log('Índice ' + x + ' valor '  + listaConvidados[x])
+
     }
 
   </script>
