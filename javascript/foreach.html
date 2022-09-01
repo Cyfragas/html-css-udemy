@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foreach</title>
+
+  <style>
+
+    body{
+      background: purple;
+      color: white;
+      font: bold 20pt monospace;
+    }
+
+
+  </style>
+</head>
+<body>
+  Estrutura de repetição Foreach <br><br>
+
+
+  <script>
+
+    var listaFuncionarios = ['Viviane', 'Guilherme', 'Mayara', 'Maria', 'João']
+
+    console.log(listaFuncionarios)
+
+    document.write(listaFuncionarios[3])
+    listaFuncionarios.forEach(function(valor, indice, array) {
+      //logica
+      console.log('indice ' + indice + ' | ' + 'valor ' + valor )
+
+      if(valor == 'Maria') {
+        array[indice] = 'Fabiana'
+      }
+    })
+
+    console.log(listaFuncionarios)
+    document.write('<br/>' + listaFuncionarios[3])
+
+  </script>
+  
+</body>
+</html>
